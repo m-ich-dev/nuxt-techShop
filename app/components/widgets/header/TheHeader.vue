@@ -98,15 +98,12 @@ const catalogIsOpen = ref<boolean>(false);
   }
   .v-enter-active,
   .v-leave-active {
-    transition:
-      opacity ease var(--t-3),
-      transform ease var(--t-3);
+    transition: opacity ease var(--t-3);
   }
 
   .v-enter-from,
   .v-leave-to {
     opacity: 0;
-    transform: translateY(-5%);
   }
 }
 @include device('sm') {
