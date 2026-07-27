@@ -44,7 +44,9 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     cmsUrl: process.env.NUXT_CMS_URL,
+    apiUrl: process.env.NUXT_API_URL,
     public: {
+      apiUrl: process.env.NUXT_PUBLIC_API_URL,
       cmsUrl: process.env.NUXT_PUBLIC_CMS_URL,
       cmsAccessToken: process.env.NUXT_PUBLIC_CMS_ACCESS_TOKEN
     }

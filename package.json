@@ -17,7 +17,7 @@
     "better-sqlite3": "^12.9.0",
     "embla-carousel-autoplay": "^8.6.0",
     "embla-carousel-vue": "^8.6.0",
-    "nuxt": "^4.4.2",
+    "nuxt": "^4.5.0",
     "vue": "^3.5.33",
     "vue-router": "^5.0.6"
   },
