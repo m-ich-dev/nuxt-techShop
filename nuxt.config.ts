@@ -51,5 +51,5 @@ export default defineNuxtConfig({
       cmsAccessToken: process.env.NUXT_PUBLIC_CMS_ACCESS_TOKEN
     }
   },
-  modules: ['@nuxtjs/color-mode', '@nuxt/content', '@nuxt/fonts', '@nuxt/eslint', '@nuxt/image']
+  modules: ['@nuxtjs/color-mode', '@nuxt/fonts', '@nuxt/eslint', '@nuxt/image']
 })
